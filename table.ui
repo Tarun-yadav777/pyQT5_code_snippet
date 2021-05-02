@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>459</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PyQT5 Table Widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="styleSheet">
+        <string notr="true">QTableWidget{
+background-color:yellow;
+
+}</string>
+       </property>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Name</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>EMail</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Phone</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Address</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>Tarun</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>tarun.rao@</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>9899178616</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>Begumpur</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>Kamal</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>kamal.sherawat@</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>53634625252</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>Chirag Delhi</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>Dhruv</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>Dhruv.tyagi@</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>64262323525</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>Delhi</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
